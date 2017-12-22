@@ -1,0 +1,8 @@
+<design:component label="Header and three columns layout with wider center column">
+    <flexipage:template >
+        <flexipage:region name="header" defaultWidth="LARGE" />
+        <flexipage:region name="left" defaultWidth="SMALL" />
+        <flexipage:region name="center" defaultWidth="MEDIUM" />
+        <flexipage:region name="right" defaultWidth="SMALL" />
+    </flexipage:template>
+</design:component>
