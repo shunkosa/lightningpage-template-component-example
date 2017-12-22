@@ -1,11 +1,11 @@
 <aura:component implements="lightning:recordHomeTemplate" description="Header and three columns layout with wider center column" access="global">
-	<aura:attribute name="header" type="Aura.Component[]" access="global"/>
+    <aura:attribute name="header" type="Aura.Component[]" access="global"/>
     <aura:attribute name="left" type="Aura.Component[]" access="global"/>
     <aura:attribute name="center" type="Aura.Component[]" access="global"/>
     <aura:attribute name="right" type="Aura.Component[]" access="global"/>
    
     <div>
-		<div>{!v.header}</div>
+        <div>{!v.header}</div>
         <lightning:layout class="columns">
             <lightning:layoutItem size="3" class="left">
                 {!v.left}
